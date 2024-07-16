@@ -1,6 +1,4 @@
 # BudgetingBuddies-Proj
-According to the Code of Conduct for the class, I seem to be allowed to share the code for this project on a public GitHub.
-
 Human-Computer Interaction was a class that focused on the accessibility of websites. The goal of the final project is to create a website according to the specifications we learned in class, starting from user stories and story boards to prototypes to final evaluations. The final evaluations included laws of simplicity, error consideration, heuristic evaluation, tidwell patterns, and microinteractions. All of these evaluations are covered in the slideshow.
 
 The files include
