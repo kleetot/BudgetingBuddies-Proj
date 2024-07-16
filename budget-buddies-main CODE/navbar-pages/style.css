@@ -1,0 +1,112 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  header {
+      background-color: #33ae17; /* Set the background color */
+      color: #fff; /* Set the font color */
+      padding: 20px; /* Add some padding */
+      font-family: "Monaco",Monospace;
+      display: flex; /* Use flexbox to align items horizontally */
+      justify-content: space-between; /* Align items to the left and right */
+    }
+    
+    h1 {
+      margin: 0; /* Remove any margin */
+      font-size: 30px; /* Set the font size */
+    }
+    
+    nav ul {
+      margin: 0; /* Remove any margin */
+      padding: 0; /* Remove any padding */
+      list-style: none; /* Remove the bullet points */
+    }
+    
+    nav li {
+      display: inline-block; /* Display the items horizontally */
+      margin-left: 20px; /* Add some space between the items */
+    }
+    
+    nav li:first-child {
+      margin-left: 0; /* Remove the left margin for the first item */
+    }
+    
+    nav a {
+      color: #fff; /* Set the font color */
+      text-decoration: none; /* Remove the underline */
+      font-size: 20px; /* Set the font size */
+    }
+
+    .header-link {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    a:hover {
+        transition: 0.5s;
+        text-decoration: underline;
+    }
+  
+  #main {
+  /*  make a light green div that fills the whole page */
+    background-color: lightgreen;
+    width: 100%;
+    height: 100%;
+    font-family: "Monaco",Monospace;
+    font-size: 20px;
+    color: green;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  #page-header {
+    text-align: center;
+    color: black;
+    font-size: 75px;
+    font-family: "Monaco",Monospace;
+    font-style: normal;
+    font-style: italic;
+
+  }
+
+#infop {
+  color: darkgreen;
+  padding: 20%;
+  padding-top: 2%;
+}
+
+  .column {
+    float: left;
+    text-align: left;
+  }
+
+  .left {
+    font-weight: bold;
+    width: 25%;
+  }
+
+  .right {
+    width: 75%;
+  }
+
+  #cols {
+    width: 90%;
+    height: 90%;
+    margin-left: 50px;
+    margin-right:50px;
+  }
+
+#tips {
+    width: 90%;
+    height: 90%;
+    margin-left: 50px;
+    margin-right:50px;
+    align-content: center;
+}
+  
+
+

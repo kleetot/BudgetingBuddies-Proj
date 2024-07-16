@@ -1,0 +1,281 @@
+html, body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  header {
+      background-color: #33ae17; /* Set the background color */
+      color: #fff; /* Set the font color */
+      padding: 20px; /* Add some padding */
+      font-family: "Monaco",Monospace;
+      display: flex; /* Use flexbox to align items horizontally */
+      justify-content: space-between; /* Align items to the left and right */
+    }
+    
+    h1 {
+      margin: 0; /* Remove any margin */
+      font-size: 30px; /* Set the font size */
+    }
+    
+    nav ul {
+      margin: 0; /* Remove any margin */
+      padding: 0; /* Remove any padding */
+      list-style: none; /* Remove the bullet points */
+    }
+
+    nav ul2 {
+      margin: 0; /* Remove any margin */
+      padding: 0; /* Remove any padding */
+      list-style: none; /* Remove the bullet points */
+      color: green;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+    }
+    
+    nav li {
+      display: inline-block; /* Display the items horizontally */
+      margin-left: 20px; /* Add some space between the items */
+    }
+    
+    nav li:first-child {
+      margin-left: 0; /* Remove the left margin for the first item */
+    }
+    
+    nav a {
+      color: #fff; /* Set the font color */
+      text-decoration: none; /* Remove the underline */
+      font-size: 20px; /* Set the font size */
+    }
+
+    .header-link {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    a:hover {
+        transition: 0.5s;
+        text-decoration: underline;
+    }
+  
+  #main {
+  /*  make a light green div that fills the whole page */
+    background-color: lightgreen;
+    width: 100%;
+    height: 100%;
+    font-family: "Monaco",Monospace;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+  }
+
+  #header {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    padding: 10px;
+    color: white;
+    font-family: "Monaco",Monospace;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
+
+  }
+
+  #question-header {
+    text-align: center;
+    color: black;
+    font-family: 'Monaco', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 64px;
+    font-weight: bold;
+  }
+
+  #question-header2 {
+    text-align: center;
+    color: white;
+    width: 75%;
+    margin: auto;
+    font-family: 'Monaco', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 64px;
+    padding-top: 25px;
+  }
+
+  #answers {
+    width: 100vw;
+    height: fit-content;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .answer-choice {
+    background-color: white;
+    color: #33ae17;
+    border: 2px solid #33ae17;
+    border-radius: 12px;
+    font-family: "Monaco",Monospace;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+    font-size: 30px;    
+  }
+
+  .answer-choice:hover {
+    background-color: #33ae17;
+    color: white;
+    transition: 0.3s;
+  }
+
+  .next-button {
+    background-color: white;
+    color: #33ae17;
+    border: 2px solid #33ae17;
+    border-radius: 12px;
+    font-family: "Monaco",Monospace;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+    font-size: 30px;    
+    position: absolute;
+    top: 10%;
+    right: 5%;
+  }
+
+  .next-button:hover {
+    background-color: #33ae17;
+    color: white;
+    transition: 0.3s;
+  }
+
+  .prev-button {
+    background-color: white;
+    color: #33ae17;
+    border: 2px solid #33ae17;
+    border-radius: 12px;
+    font-family: "Monaco",Monospace;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+    font-size: 30px;    
+    position: absolute;
+    top: 10%;
+    left: 5%;
+  }
+
+  .prev-button:hover {
+    background-color: #33ae17;
+    color: white;
+    transition: 0.3s;
+  }
+
+  #results {
+    width: fit-content;
+    color: darkgreen;
+    height: fit-content;
+    font-size: 30px;
+    margin: auto;
+    padding: 5%;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+  }
+
+  #your-budget {
+    width: 25vw;
+    height: 65vh;
+    font-size: 30px;
+    margin: auto;
+    padding: 5%;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid black;
+  }
+
+  .export-button {
+    background-color: white;
+    color: #33ae17;
+    border: 2px solid #33ae17;
+    border-radius: 12px;
+    font-family: "Monaco",Monospace;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+    font-size: 45px;    
+    /* move this to the bottom center of the screen */
+    position: absolute;
+    top: 90%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+
+  }
+
+  .export-button:hover {
+    background-color: #33ae17;
+    color: white;
+    transition: 0.3s;
+  }
+
+  #budget-header {
+    text-align: center;
+    color: black;
+    font-family: 'Monaco', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 75px;
+    line-height: 64px;
+    font-weight: bold;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #budget-list {
+    /* make this appear on the right side of the screen */
+    width: 25vw;
+    height: 65vh;
+    font-size: 30px;
+    margin: auto;
+    padding: 5%;
+    padding-top: 25%;
+    text-align: center;
+    border-radius: 10px;
+    color: darkgreen;
+  }

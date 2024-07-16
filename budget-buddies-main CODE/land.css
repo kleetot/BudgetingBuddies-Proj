@@ -1,0 +1,109 @@
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+header {
+    background-color: #33ae17; /* Set the background color */
+    color: #fff; /* Set the font color */
+    padding: 20px; /* Add some padding */
+    font-family: "Monaco",Monospace;
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: space-between; /* Align items to the left and right */
+  }
+  
+  h1 {
+    margin: 0; /* Remove any margin */
+    font-size: 30px; /* Set the font size */
+  }
+  
+  nav ul {
+    margin: 0; /* Remove any margin */
+    padding: 0; /* Remove any padding */
+    list-style: none; /* Remove the bullet points */
+  }
+  
+  nav li {
+    display: inline-block; /* Display the items horizontally */
+    margin-left: 20px; /* Add some space between the items */
+  }
+  
+  nav li:first-child {
+    margin-left: 0; /* Remove the left margin for the first item */
+  }
+  
+  nav a {
+    color: #fff; /* Set the font color */
+    text-decoration: none; /* Remove the underline */
+    font-size: 20px; /* Set the font size */
+  }
+
+  a:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+}
+  
+
+#main {
+/*  make a light green div that fills the whole page */
+  background-color: lightgreen;
+  width: 100vw;
+  height: 100vh;
+  font-family: "Monaco",Monospace;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+#main-header {
+  color: black;
+  font-size: 75px;
+  text-align: center;
+  font-family: "Monaco",Monospace;
+}
+
+
+#slogan {
+  text-align: center;
+  list-style: none;
+  font-family: "Monaco",Monospace;
+  font-size: 40px;
+  margin: 30px;
+}
+
+#creat-button {
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+}
+/* Create Budget Button */
+.budget-button {
+  background-color: white;
+  color: #33ae17;
+  border: 2px solid #33ae17;
+  border-radius: 12px;
+  font-family: "Monaco",Monospace;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); 
+  width: 50vw;
+  height: 20vh;
+  font-size: 50px;
+}
+
+.budget-button:hover {
+  /* make the button invert color whne you hover over it */
+  background-color: #33ae17;
+  color: white;
+  transition: 0.5s;
+
+}
